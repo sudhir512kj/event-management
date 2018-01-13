@@ -1,0 +1,156 @@
+{
+	"title":"Classroom",
+	"heading": "Your Classroom",
+	"button_heading":"Create Classroom",
+		"card_content": [
+
+			{
+				"class_name": "Class A",
+				"course_name":"APTITUDE",
+				"students": "12 Students",
+				"pics":[
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					}
+
+				]
+
+      },
+
+			{
+				"class_name": "Class B",
+				"course_name":"NEET",
+				"students": "42 Students",
+				"pics":[
+
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					}
+				]
+
+			},
+
+			{
+				"class_name": "Class C",
+				"course_name":"BANK",
+				"students": "102 Students",
+				"pics":[
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					},
+					{
+						"url": "../images/user_pic.png"
+					}
+				]
+
+			}
+
+		],
+
+		"exams":[
+
+			{
+				"course_name":"APTITUDE",
+				"url":"aptitude.php"
+			},
+			{
+				"course_name":"CLAT",
+				"url":"clat.php"
+
+			},
+			{
+				"course_name":"GMAT",
+				"url":"gmat.php"
+
+			},
+			{
+				"course_name":"SSC",
+				"url":"ssc.php"
+
+			},
+			{
+				"course_name":"BANK",
+				"url":"bank.php"
+
+			},
+			{
+				"course_name":"UPSC",
+				"url":"upsc.php"
+
+			},
+			{
+				"course_name":"JEE",
+				"url":"jee.php"
+
+			},
+			{
+				"course_name":"CAT",
+				"url":"cat.php"
+
+			},
+			{
+				"course_name":"GRE",
+				"url":"gre.php"
+
+			}
+		]
+
+
+  }

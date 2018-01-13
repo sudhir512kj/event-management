@@ -1,0 +1,142 @@
+.speaker_img{
+	border:5px solid yellow;
+	width: 85%;
+	border-radius: 50%;
+	animation: animate 1s linear infinite;
+}
+
+
+@keyframes animate {
+
+  0%{
+    box-shadow: 0 0 0 0 rgba(74,144,226,.7);
+  }
+  40%{
+    box-shadow: 0 0 0 17px rgba(74,144,226,0);
+  }
+  80%{
+    box-shadow: 0 0 0 17px rgba(74,144,226,0);
+  }
+  100%{
+    box-shadow: 0 0 0 0 rgba(74,144,226,0);
+  }
+
+}
+
+.speaker_text{
+	font-family: 'Allerta', sans-serif;
+	color: white;
+	font-size: 16px;
+}
+.speakerContentRow{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.schedule_date_title{
+	font-family: 'Allerta', sans-serif;
+	color: white;
+}
+.schedule_item{
+	padding: 10px 10px;
+	border-radius: 5px;
+	border:solid white 3px;
+	color: white;
+}
+.scheduleContentRow{
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
+#navbar_logo{
+	height: 100%;
+}
+.navbar{
+	background-color: rgba(0,0,0,0);
+	border-style: none;
+	height: 120px;
+}
+.container-fluid{
+	height: 100%;
+
+}
+.navbar-header{
+	height: 100%;
+}
+.navbar-brand{
+	height: 100%;
+}
+
+body{
+	background-image: url(../imgs/back.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+
+	background-position: 0px -60px;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+textarea.form-control{
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 100px;
+	max-height: 500px;
+	height: 150px;
+}
+
+.topRow{
+	margin-top: 10%;
+	margin-bottom: 28%;
+}
+.date_text{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+/*BOTTOM PART */
+.bottom_wrapper{
+	background-color: rgba(231, 159, 94, 0.52);
+	width: 100%;
+}
+.section_title{
+	font-family: 'Allerta', sans-serif;
+}
+.fontWhite{
+	color: white;
+}
+
+.app_wrapper{
+	box-shadow: 1px 1px 95px 20px #ffeb3b63;
+    border: solid #FFEB3B 5px;
+    border-radius: 0px;
+}
+.app_inner{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.appRow{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.control-label{
+	font-size: 16px;
+	color: white;
+}
+.form-control{
+	background-color: rgba(0,0,0,0);
+	border-color: white;
+	color: white;
+}
+.apply_btn{
+	color: white;
+	border:solid 2px white;
+	padding: 10px 10px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0);
+	border-radius: 5px;
+}

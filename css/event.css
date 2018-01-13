@@ -1,0 +1,378 @@
+
+.btn-bs-file{
+    position:relative;
+}
+.btn-bs-file input[type="file"]{
+    position: absolute;
+    top: -9999999;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width:0;
+    height:0;
+    outline: none;
+    cursor: inherit;
+}
+
+
+.user{
+  margin-top: -28px;
+}
+
+.number_section .heading {
+  margin-left: -392px;
+padding-top: 199px;
+font-size: 27px;
+color: white;
+font-weight: 200;
+}
+
+/*.navbar-brand {
+  padding: 15px 65px;
+}*/
+.create_classroom_button{
+  position: relative;
+    left: 809px;
+    /* border-radius: 37px; */
+    font-size: 19px;
+    color: white;
+    top: -38px;
+    padding: 7px 22px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    background: rgba(33, 211, 216, 0.72);
+}
+
+.navbar-nav>li>a {
+  color: white;
+    opacity: 1;
+    font-size: 21px;
+    font-weight: 300;
+    position: relative;
+    left: -79px;
+    top: 39px;
+}
+
+
+.navbar-nav>li>a:hover{
+  background: black;
+}
+.card_body {
+  height: 230px;
+  width: 198px;
+  color: rgba(0, 0, 0, 0.81);
+  background-color: rgba(245, 245, 245, 0.19);
+  border-radius: 15px;
+  float: left;
+  margin: -25px;
+  margin-top:20px;
+  margin-bottom: 60px;
+  box-shadow: 0px 0px 25px #f2853b;
+  text-align: center;
+  padding-top: 42px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.card_body img {
+  height:35px;
+  width:35px;
+  float: left;
+  border: 4px solid white;
+  margin-left: -15px;
+}
+
+.glyphicon-cog{
+  color: rgba(128, 128, 128, 0.5);
+      position:relative;
+      left: 50px;
+
+}
+
+.add_classroom{
+  font-size: 18px;
+      color: rgba(51, 51, 51, 0.49);
+      padding-top: 100px;
+
+}
+
+/* .btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+} */
+.sub_heading1{
+  font-weight: 400;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 12px;
+
+}
+
+.btn{
+  font-weight: 200;
+  word-wrap: break-word;
+}
+.btn:hover{
+  color:white;
+
+}
+
+.card_body:hover{
+  box-shadow: 0px 0px 1px #777;
+}
+
+
+.img_section{
+    padding-left:45px;
+    width:260px;
+    float: left;
+    margin-top: 0px;
+}
+
+.card_footer{
+  background-color: rgba(153, 153, 153, 0.09);
+      width: 196px;
+      margin-left: -1px;
+      margin-top: 21px;
+      height: 42px;
+      color: grey;
+      font-size: 17px;
+      padding-top: 5px;
+      border-bottom: 0px;
+      border-left: 0px;
+      border-radius: 1px 1px 17px 17px;
+      font-weight: 200;
+}
+
+
+/*mobile-view*/
+@media (max-width: 414px) {
+  .modalbody {
+  margin: -55px -141px;
+  }
+  .navbar-brand {
+    padding: 15px 35px;
+}
+.classroom_button{
+  padding: 7px 22px;
+margin-top: -114px;
+font-weight: 200;
+font-size: 23px;
+letter-spacing: 0.5;
+color: white;
+background: rgba(33, 211, 216, 0.72);
+
+}
+
+.heading{
+  font-size: 27px;
+    padding-top: 12px;
+    margin-top: 5px;
+    color: black;
+    margin-left: 33px;
+
+}
+
+.card_body{
+  margin-bottom: -63px;
+    margin-top: 120px;
+    margin-left: 14px;
+}
+.user{
+  position: absolute;
+      font-size: 30px;
+      bottom: 77px;
+      margin-left: 12px;
+      background: rgba(35, 119, 130, 0.18);
+      padding: 12px;
+}
+.mobile-brandview-data{
+margin-left: 12px;
+
+}
+.container-fluid {
+    padding-bottom: 131px;
+}
+}
+
+
+@media (min-width:360px) {
+
+  .mobile-brandview-img{
+    margin-left: 23px;
+
+  }
+
+  .mobile-brandview-data{
+    margin-left: 38px;
+
+  }
+
+.heading{
+    margin-left: 56px;
+
+}
+
+.card_body{
+    margin-left: 34px;
+}
+.user{
+      margin-left:28px;
+}
+
+
+}
+
+
+
+
+@media (min-width:412px) {
+
+.mobile-brandview-img{
+  margin-left: 60px;
+
+}
+
+.mobile-brandview-data{
+  margin-left: 65px;
+
+}
+
+.heading{
+  font-size: 26px;
+    margin-top: -49px;
+    color: white;
+    margin-left: 78px;
+
+}
+
+.card_body{
+    margin-left: 60px;
+    border-radius:1px;
+}
+.user{
+      margin-left:50px;
+}
+
+
+}
+
+@media (max-width:1024px) and (min-width:768px) {
+
+
+  .create_classroom_button {
+      position: absolute;
+      top: 147px;
+  }
+  .heading{
+    position: relative;
+      left: 100px;
+      top: 12px;
+  }
+
+
+
+}
+
+
+@media (min-width:768px) {
+  .user{
+
+  }
+
+  .classroom_button {
+    margin-top: -68px;
+margin-left: 233px;
+width: 205px;
+background: #21d3d8;
+color: white;
+font-size: 22px;
+  }
+  .heading{
+    position: relative;
+      left: 100px;
+      top: 12px;
+  }
+
+}
+
+label{
+  font-weight: 400;
+}
+.modal-content {
+border-radius: 18px;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
+.modalbody {
+padding:20px;
+}
+
+.modal-footer{
+  border-top: none;
+  text-align: center;
+  padding-bottom: 44px;
+  padding-top: 85px;
+}
+
+
+.submit_buttons{
+  background: #0dc9c9;
+    padding: 8px 19px;
+    color: white;
+    letter-spacing: 0.8;
+    font-size: 18px;
+    
+    border-radius: 2px;
+
+}
+
+.btn:hover{
+  color: white;
+}
+
+.btn-default:hover{
+  background-color: #0dc9c9;
+}
+
+
+.btn-primary {
+    background-color: #3171d4;
+}
+
+
+.or{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+
+.card_thumbnail_remain{
+  border-radius: 50%;
+behavior: url(PIE.htc);
+border: 4px solid white;
+width: 35px;
+height: 35px;
+background: #21d3d8;
+position: relative;
+right: -82px;
+/*box-shadow: 0px 0px 10px rgba(8, 8, 8, 0.62);*/
+text-align: center;
+font-size: 13px;
+}
+
+
+.remain_text{
+  position: relative;
+    top: -25px;
+    left: -1px;
+    color:white;
+    font-weight: 100;
+}
