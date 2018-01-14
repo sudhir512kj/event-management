@@ -6,3 +6,8 @@ Users can register for any happening event from anywhere.
 # Requirements to run this project
 Web Server -Xampp<br>
 Any browser
+
+<br>
+If any problem faced during running the project,<br> 
+then change name of BASEURL in config.php file and <br>
+ core/init.php with "event-management-master" 
